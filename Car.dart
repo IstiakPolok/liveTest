@@ -1,13 +1,13 @@
 class Car {
-  // Public properties
+  // public properties
   String brand;
   String model;
   int year;
 
-  // Constructor
+  // constructor
   Car(this.brand, this.model, this.year);
 
-  // Method to calculate car age
+  // car age calculation method
   int carAge() {
     int currentYear = DateTime.now().year;
     return currentYear - year;
